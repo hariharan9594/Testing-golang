@@ -1,0 +1,4 @@
+github.com/hgfischer/go-otp v1.0.0 h1:WGxLfYXh5djjFQUxrMDvaMvIUhRDtHqZumJ7sI3zVLM=
+github.com/hgfischer/go-otp v1.0.0/go.mod h1:SFK84Ci40RFGoz2Ukjr/6KO0Ma31GfQAyWjf+SGb028=
+github.com/souvikhaldar/gobudgetsms v0.0.0-20181104103442-ac7075c13441 h1:hgrWhNaJRljBWRkCmXKL4gCrPASrolB8w2Q45bOWQRs=
+github.com/souvikhaldar/gobudgetsms v0.0.0-20181104103442-ac7075c13441/go.mod h1:yTj3cMsd2VV4wtIq0xRP1IF1nMrSqxth2SaJc/gxjHg=

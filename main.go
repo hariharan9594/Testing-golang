@@ -2,7 +2,8 @@ package main
 
 import (
 	"fmt"
-	"test/hari/model"
+	//"test/hari/model"
+	"net/http"
 )
 
 func main() {
@@ -10,5 +11,9 @@ func main() {
 	//model.UpdateStatus()
 	//url := "http://www.google.com"
 	//model.CallApiInGo(url)
-	model.SendMail()
+	//model.SendMail()
+	http.HandleFunc("/demo", func(w http.ResponseWriter, r *http.Request) {
+		w.Write([]byte("Hello This is hari"))
+	})
+	http.ListenAndServe(":8080", nil)
 }
